@@ -1,16 +1,17 @@
 # This is a sample Python script.
+from datetime import date
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from models.personajes import Personaje
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+p = Personaje("Ana", "López", date(2003, 5, 3))
+p1 = Personaje("Ana", "López", date(2000, 5, 3))
+
+print(p.identificador,p.nombre, p.fecha_nacimiento)
+print(p1.identificador,p1.nombre, p1.fecha_nacimiento)
+
+print(p.edad)
+print(p1.edad)
+
