@@ -2,6 +2,7 @@
 from datetime import date
 
 from services.busqueda import buscarpersonaje
+from services.emparejamineto import emparejamineto
 from utils.logger import logger
 from models.heroes import Heroe
 from models.personajes import Personaje
@@ -22,14 +23,24 @@ from services.regsitro import crear_heroe, heroes, crear_villano, villanos
 #     crear_villano()
 # print(len(heroes), len(villanos))
 
-for i in range(10):
+# for i in range(10):
+#     crear_heroe()
+#     crear_villano()
+#
+# print(len(buscarpersonaje(heroes, "gitgod", ">", "50")))
+# print(len(buscarpersonaje(heroes, "edad", ">=", "40")))
+# print(len(buscarpersonaje(villanos, "nombre", "=", "ana")))
+# print(buscarpersonaje(heroes, "volar", "=", "1"))        # []
+# print(buscarpersonaje(heroes, "gitgod", "??", "1"))      # []
+# print(buscarpersonaje(heroes, "nombre", ">", "50"))      # [] por TypeError
+
+for _ in range(30):
     crear_heroe()
     crear_villano()
 
-print(len(buscarpersonaje(heroes, "gitgod", ">", "50")))
-print(len(buscarpersonaje(heroes, "edad", ">=", "40")))
-print(len(buscarpersonaje(villanos, "nombre", "=", "ana")))
-print(buscarpersonaje(heroes, "volar", "=", "1"))        # []
-print(buscarpersonaje(heroes, "gitgod", "??", "1"))      # []
-print(buscarpersonaje(heroes, "nombre", ">", "50"))      # [] por TypeError
 
+
+
+for _ in range(10):
+    h, v, veredicto = emparejamineto(heroes, villanos)
+    print(h.nombre, h.puntuacion_total, "vs", v.nombre, v.puntuacion_total, "->", veredicto)

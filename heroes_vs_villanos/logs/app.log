@@ -24,3 +24,73 @@
 2026-10-11 13:27:03,376 | ERROR | El atributo volar no existe
 2026-10-11 13:27:03,376 | ERROR | Búsqueda inválida: gitgod ?? 1 (Operador no válido: ??)
 2026-10-11 13:27:03,376 | ERROR | Búsqueda inválida: nombre > 50 ('>' not supported between instances of 'str' and 'float')
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=1, Gilberto Iglesias, puntuación=26.6
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=2, Casemiro Cabanillas, puntuación=33.25
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=3, Julieta Chaparro, puntuación=63.4
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=4, Araceli Bustamante, puntuación=60.5
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=5, Candelas Benavent, puntuación=69.2
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=6, Mirta Paniagua, puntuación=46.5
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=7, Calixto Cantero, puntuación=47.0
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=8, Néstor Guillén, puntuación=26.0
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=9, Ibán Bosch, puntuación=34.8
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=10, Valerio Gutiérrez, puntuación=39.75
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=11, Adolfo Cazorla, puntuación=60.2
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=12, Asdrubal Rodriguez, puntuación=62.5
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=13, Chuy Perera, puntuación=52.0
+2026-10-11 16:13:46,632 | INFO | Villano creado: id=14, Severiano Vall, puntuación=50.0
+2026-10-11 16:13:46,632 | INFO | Héroe creado: id=15, Ascensión Cadenas, puntuación=55.4
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=16, Pastora Araujo, puntuación=58.0
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=17, Francisco Parra, puntuación=62.4
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=18, Carina Llamas, puntuación=50.5
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=19, Fortunata Vidal, puntuación=49.6
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=20, Simón Arnau, puntuación=35.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=21, Amelia Miranda, puntuación=45.8
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=22, Flor Delgado, puntuación=51.0
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=23, Almudena Santiago, puntuación=63.6
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=24, María Jesús Gilabert, puntuación=47.25
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=25, Jose Viana, puntuación=57.6
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=26, Yésica Reig, puntuación=26.0
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=27, Febe Posada, puntuación=49.4
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=28, Ignacio Amat, puntuación=55.0
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=29, Marcos Terrón, puntuación=47.2
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=30, Rubén Ocaña, puntuación=56.25
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=31, Cándido Vizcaíno, puntuación=60.2
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=32, Hernando Figueras, puntuación=75.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=33, Carmen Artigas, puntuación=55.6
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=34, Marisela Diego, puntuación=79.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=35, Lucila Diez, puntuación=50.8
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=36, Pablo Arévalo, puntuación=66.25
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=37, María Carmen Español, puntuación=21.0
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=38, Marc Sanjuan, puntuación=50.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=39, Valerio Puig, puntuación=31.6
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=40, Marina Sotelo, puntuación=54.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=41, Esperanza Garriga, puntuación=64.0
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=42, Filomena Gallart, puntuación=65.0
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=43, Eustaquio Goicoechea, puntuación=53.8
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=44, Priscila Rosa, puntuación=33.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=45, Francisco Plana, puntuación=53.8
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=46, Asdrubal Portillo, puntuación=81.75
+2026-10-11 16:13:46,633 | INFO | Héroe creado: id=47, Amador Diego, puntuación=41.2
+2026-10-11 16:13:46,633 | INFO | Villano creado: id=48, Soraya Mir, puntuación=59.75
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=49, Julio Valencia, puntuación=69.6
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=50, Palmira Ramón, puntuación=30.25
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=51, Loida Daza, puntuación=67.8
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=52, Matías Vega, puntuación=49.25
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=53, Carmen Ripoll, puntuación=42.0
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=54, Severo Garriga, puntuación=41.5
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=55, José Antonio Vilaplana, puntuación=58.8
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=56, Lorenzo Gordillo, puntuación=58.0
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=57, Casemiro Huerta, puntuación=41.4
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=58, Rosalía Berenguer, puntuación=38.5
+2026-10-11 16:13:46,634 | INFO | Héroe creado: id=59, Rodolfo Armas, puntuación=51.0
+2026-10-11 16:13:46,634 | INFO | Villano creado: id=60, Estrella Guzman, puntuación=44.75
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 9 Ibán y el villano 18 CarinaLa punruacion del heroe es34.8  y la del villano es 50.5el veredicto del comabate es Diferencia moderada
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 17 Francisco y el villano 42 FilomenaLa punruacion del heroe es62.4  y la del villano es 65.0el veredicto del comabate es Equlibrado
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 59 Rodolfo y el villano 2 CasemiroLa punruacion del heroe es51.0  y la del villano es 33.25el veredicto del comabate es Diferencia moderada
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 5 Candelas y el villano 4 AraceliLa punruacion del heroe es69.2  y la del villano es 60.5el veredicto del comabate es Equlibrado
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 37 María Carmen y el villano 46 AsdrubalLa punruacion del heroe es21.0  y la del villano es 81.75el veredicto del comabate es Alta desviación
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 49 Julio y el villano 54 SeveroLa punruacion del heroe es69.6  y la del villano es 41.5el veredicto del comabate es Alta desviación
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 7 Calixto y el villano 22 FlorLa punruacion del heroe es47.0  y la del villano es 51.0el veredicto del comabate es Equlibrado
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 25 Jose y el villano 28 IgnacioLa punruacion del heroe es57.6  y la del villano es 55.0el veredicto del comabate es Equlibrado
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 23 Almudena y el villano 46 AsdrubalLa punruacion del heroe es63.6  y la del villano es 81.75el veredicto del comabate es Diferencia moderada
+2026-10-11 16:13:46,634 | INFO | Se enfrentan el heroeher 15 Ascensión y el villano 44 PriscilaLa punruacion del heroe es55.4  y la del villano es 33.75el veredicto del comabate es Alta desviación
