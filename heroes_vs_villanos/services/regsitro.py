@@ -26,7 +26,7 @@ def crear_heroe():
                 f"puntuación={generar_hero.puntuacion_total}")
 
         return generar_hero
-    
+
     except Exception :
         logger.exception("Error al crear Heroe")
 
