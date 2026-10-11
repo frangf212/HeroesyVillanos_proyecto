@@ -22,7 +22,7 @@ def emparejamineto(heroes,villanos):
     else:
         veredicto = "Diferencia moderada"
 
-    logger.info(f"Se enfrentan el heroeher {heroe.identificador} {heroe.nombre} y el villano {villano.identificador} {villano.nombre}"
+    logger.info(f"Se enfrentan el heroe {heroe.identificador} {heroe.nombre} y el villano {villano.identificador} {villano.nombre}"
                 f"La punruacion del heroe es{heroe.puntuacion_total}  y la del villano es {villano.puntuacion_total}"
                 f"el veredicto del comabate es {veredicto}")
     return heroe, villano, veredicto

@@ -9,38 +9,70 @@ from models.personajes import Personaje
 from models.villanos import Villano
 from services.regsitro import crear_heroe, heroes, crear_villano, villanos
 
-# h = Heroe("Ana", "López", date(2000, 5, 3))
-# print(h)
-# print(h.cualidades)
-#
-# v= Villano("Fernando", "Ruiz", date(1999, 1, 20))
-# print(v)
-# print(v.cualidades)
-#
-#
-# for i in range(50):
-#     crear_heroe()
-#     crear_villano()
-# print(len(heroes), len(villanos))
+def mostrar_menu():
+    print("1. Crear héroe")
+    print("2. Crear villano")
+    print("3. Buscar")
+    print("4. Emparejar")
+    print("5. Listar todos")
+    print("0. Salir")
 
-# for i in range(10):
-#     crear_heroe()
-#     crear_villano()
-#
-# print(len(buscarpersonaje(heroes, "gitgod", ">", "50")))
-# print(len(buscarpersonaje(heroes, "edad", ">=", "40")))
-# print(len(buscarpersonaje(villanos, "nombre", "=", "ana")))
-# print(buscarpersonaje(heroes, "volar", "=", "1"))        # []
-# print(buscarpersonaje(heroes, "gitgod", "??", "1"))      # []
-# print(buscarpersonaje(heroes, "nombre", ">", "50"))      # [] por TypeError
+def main():
+    while True:
+        mostrar_menu()
+        opcion = input("Ingrese su opcion: ")
 
-for _ in range(30):
-    crear_heroe()
-    crear_villano()
+        if opcion == "1":
+            try:
+                numeroheroes = int(input("¿Cuántos héroes quieres crear? "))
+            except ValueError:
+                logger.warning("Cantidad no válida al crear héroes")
+                print("Introduce un número")
+                continue
+            for i in range(numeroheroes):
+                    crear_heroe()
 
 
+        elif opcion == "2":
+            try:
+                numerovillanos = int(input("¿Cuántos villanos quieres crear? "))
+            except ValueError:
+                logger.warning("Cantidad no válida al crear villanos")
+                print("Introduce un número")
+                continue
+            for i in range(numerovillanos):
+                crear_villano()
+
+        elif opcion == "3":
+            pedirpersonaje=input("1. Héroes  2. Villanos: ")
+            atributo = input("Atributo o cualidad: ")
+            operador = input("Operador (=, >, <, >=, <=, !=): ")
+            valor = input("Valor: ")
+            if pedirpersonaje == "1":
+                resultados = buscarpersonaje(heroes, atributo, operador, valor)
+            elif pedirpersonaje == "2":
+                resultados = buscarpersonaje(villanos, atributo, operador, valor)
+            else:
+                logger.warning("Opcion no valida")
+                continue
+
+        elif opcion == "4":
+            resultado=emparejamineto(heroes,villanos)
+
+        elif opcion == "5":
+            for v in villanos.values():
+                print(v)
+
+            for h in heroes.values():
+                print(h)
+
+        elif opcion == "0":
+            logger.info("Saliendo")
+            break
+
+        else:
+            logger.warning(f"Opcion no valida {opcion}")
 
 
-for _ in range(10):
-    h, v, veredicto = emparejamineto(heroes, villanos)
-    print(h.nombre, h.puntuacion_total, "vs", v.nombre, v.puntuacion_total, "->", veredicto)
+if __name__ == "__main__":
+        main()
